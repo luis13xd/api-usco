@@ -1,7 +1,7 @@
 package com.usco.testspring.dto;
-import javax.validation.constraints.*;
 
 import lombok.*;
+import org.hibernate.validator.constraints.NotBlank;
 
 @Getter
 @Setter

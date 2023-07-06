@@ -1,9 +1,12 @@
 package com.usco.testspring.dto;
 
-import javax.validation.constraints.*;
 
 import lombok.*;
+import org.hibernate.validator.constraints.NotBlank;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import java.util.UUID;
 
 @Getter
